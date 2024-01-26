@@ -6,7 +6,7 @@ import { fetchDataFromApi } from "@/utils/api";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
-const search = () => {
+const Search = () => {
   const [data, setData] = useState(null);
   const [pageNum, setPageNum] = useState(1);
   const [loading, setLoading] = useState(false);
@@ -86,4 +86,4 @@ const search = () => {
   );
 };
 
-export default search;
+export default Search;

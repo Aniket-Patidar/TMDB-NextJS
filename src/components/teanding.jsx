@@ -3,7 +3,7 @@ import SwitchTab from "./switchTab";
 import ContentWrapper from "./contentWrapper/ContentWrapper";
 import useFetch from "@/hooks/useFetch";
 import Carousel from "./carousel";
-const trending = () => {
+const Trending = () => {
   const [endpoint, setEndpoint] = useState("day");
 
   const { data, loading } = useFetch(`/trending/movie/${endpoint}`);
@@ -23,4 +23,4 @@ const trending = () => {
   );
 };
 
-export default trending;
+export default Trending;

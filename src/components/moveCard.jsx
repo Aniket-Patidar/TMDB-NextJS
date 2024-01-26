@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 import { useRouter } from "next/navigation";
 import CircleRating from "./circleRating";
 import Genres from "./genres";
-const moveCard = ({ data, fromSearch }) => {
+const MoveCard = ({ data, fromSearch }) => {
   const router = useRouter();
   const { url } = useSelector((state) => state.home);
 
@@ -47,4 +47,4 @@ const moveCard = ({ data, fromSearch }) => {
   );
 };
 
-export default moveCard;
+export default MoveCard;

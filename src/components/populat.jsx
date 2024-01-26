@@ -3,7 +3,7 @@ import SwitchTab from "./switchTab";
 import ContentWrapper from "./contentWrapper/ContentWrapper";
 import useFetch from "@/hooks/useFetch";
 import Carousel from "./carousel";
-const popular = () => {
+const Popular = () => {
   const [endpoint, setEndpoint] = useState("movie");
 
   const { data, loading } = useFetch(`/${endpoint}/popular`);
@@ -24,4 +24,4 @@ const popular = () => {
   );
 };
 
-export default popular;
+export default Popular;

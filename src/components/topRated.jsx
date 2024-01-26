@@ -3,7 +3,7 @@ import SwitchTab from "./switchTab";
 import ContentWrapper from "./contentWrapper/ContentWrapper";
 import useFetch from "@/hooks/useFetch";
 import Carousel from "./carousel";
-const topRated = () => {
+const TopRated = () => {
   const [endpoint, setEndpoint] = useState("movie");
 
   const { data, loading } = useFetch(`/${endpoint}/top_rated`);
@@ -26,4 +26,4 @@ const topRated = () => {
   );
 };
 
-export default topRated;
+export default TopRated;

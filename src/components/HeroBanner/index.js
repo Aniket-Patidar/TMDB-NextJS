@@ -4,7 +4,7 @@ import useFetch from '@/hooks/useFetch';
 import { useSelector } from 'react-redux';
 import ContentWrapper from '../contentWrapper/ContentWrapper';
 import Img from '../lazyLoadImage/Img';
-const index = () => {
+const Index = () => {
 
   const [background, setBackground] = useState("");
   const [query, setQuery] = useState("");
@@ -62,6 +62,6 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
 
 

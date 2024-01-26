@@ -11,7 +11,7 @@ import ContentWrapper from "./contentWrapper/ContentWrapper";
 import VideoPopup from "./videpPopup";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 
-const bannerDetails = ({ mediaType, id, video, crew }) => {
+const BannerDetails = ({ mediaType, id, video, crew }) => {
   const [show, setShow] = useState(false);
   const [videoId, setVideoId] = useState(null);
   const [rating, setRating] = useState(5);
@@ -182,4 +182,4 @@ const bannerDetails = ({ mediaType, id, video, crew }) => {
   );
 };
 
-export default bannerDetails;
+export default BannerDetails;

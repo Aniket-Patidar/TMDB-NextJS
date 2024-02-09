@@ -14,7 +14,7 @@ const TopRated = () => {
 
   return (
     <ContentWrapper>
-      <div className="py-5  h-fit flex justify-between px-5 capitalize">
+      <div className="py-5   h-fit flex justify-between px-5 capitalize">
         <div className="font-semibold text-lg text-white">Top Rated</div>
         <SwitchTab
           onTabChange={onTabChange}

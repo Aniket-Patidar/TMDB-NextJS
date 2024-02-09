@@ -15,7 +15,7 @@ const Popular = () => {
 
   return (
     <ContentWrapper>
-      <div className="py-5  h-fit flex justify-between px-5 capitalize">
+      <div className="py-5 min-h-[100px]   h-fit flex justify-between px-5 capitalize">
         <div className="font-semibold text-lg text-white">What&apos;s Popular</div>
         <SwitchTab onTabChange={onTabChange}  data={["Movies", "TV Shows"]} />
       </div>

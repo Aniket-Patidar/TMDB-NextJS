@@ -45,7 +45,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
   };
 
   return (
-    <div className="carousel relative">
+    <div className="carousel relative  min-h-[200px]">
       <ContentWrapper>
         {title && <div className="text-white font-lg my-2">{title}</div>}
         <BsFillArrowLeftCircleFill
